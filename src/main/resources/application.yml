@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: get
+  datasource:
+    url: jdbc:mysql://localhost:3306/get?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345678
+#https设置（已在反向代理处使用了https）
+#server:
+#  port: 8080
+#  ssl:
+#    key-store: classpath:keystore.p12
+#    key-store-password: 040629w
+#    keyStoreType: PKCS12
+#    keyAlias: tomcat
+#  forward-headers-strategy: NATIVE
